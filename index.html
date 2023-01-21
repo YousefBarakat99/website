@@ -1,252 +1,433 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Welcome!</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Welcome!</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <div id="header">
+      <div class="top">
+        <!-- Logo -->
+        <div id="logo">
+          <span class="image avatar48"
+            ><img src="images/avatar.jfif" alt=""
+          /></span>
+          <h1 id="title">Yousef Barakat</h1>
+          <p>Self-taught Data Analyst</p>
+        </div>
 
-		<!-- Header -->
-			<div id="header">
+        <!-- Nav -->
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#top" id="top-link"
+                ><span class="icon solid fa-home">Home</span></a
+              >
+            </li>
+            <li>
+              <a href="#portfolio" id="portfolio-link"
+                ><span class="icon solid fa-th">Portfolio</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" id="about-link"
+                ><span class="icon solid fa-user">About Me</span></a
+              >
+            </li>
+            <li>
+              <a href="#contact" id="contact-link"
+                ><span class="icon solid fa-envelope">Contact</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-				<div class="top">
+      <div class="bottom">
+        <!-- Social Icons -->
+        <ul class="icons">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/yousef-barakat-019816205/"
+              target="_blank"
+              class="icon brands fa-linkedin"
+              ><span class="label">LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/heroghost52"
+              target="_blank"
+              class="icon brands fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="mailto:yousefhany19992@gmail.com"
+              target="_blank"
+              class="icon solid fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jfif" alt="" /></span>
-							<h1 id="title">Yousef Barakat</h1>
-							<p>Self-taught Data Analyst</p>
-						</div>
+    <!-- Main -->
+    <div id="main">
+      <!-- Intro -->
+      <section id="top" class="one dark cover">
+        <div class="container">
+          <header>
+            <h2 class="alt">Hello! I'm <strong>Yousef</strong></h2>
+            <p>
+              And the purpose of this website is to showcase my skills in Data
+              Analysis.<br />
+              You will find my portfolio and contact information below.
+            </p>
+          </header>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
+          <footer>
+            <a href="#portfolio" class="button scrolly">Portfolio</a>
+          </footer>
+        </div>
+      </section>
 
-				</div>
+      <!-- Portfolio -->
+      <section id="portfolio" class="two">
+        <div class="container">
+          <header>
+            <h2>Portfolio</h2>
+          </header>
 
-				<div class="bottom">
+          <p>
+            I have completed several projects in different environments to
+            showcase my skills and flexibility. The code is hosted on my Github
+            profile and I will constantly update the portfolio as I complete
+            more projects.
+          </p>
 
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/yousef-barakat-019816205/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/YousefBarakat99" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="mailto:yousefhany19992@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
+          <div class="row">
+            <div class="col-4 col-12-mobile">
+              <h2
+                style="
+                  padding: 5px;
+                  color: darkblue;
+                  text-decoration: underline;
+                "
+              >
+                Python
+              </h2>
+              <article class="item">
+                <h2>Sea Level Predictor</h2>
+                <a class="image fit"
+                  ><img src="images/pic02.jpg" alt="Sea level rise"
+                /></a>
+                <header>
+                  <h3>
+                    Analyzed a dataset of the global average sea level change
+                    since 1880. Then used the data to predict the sea level
+                    change through year 2050.
+                  </h3>
+                </header>
+                <a
+                  href="https://github.com/YousefBarakat99/My_Portfolio/tree/main/Data%20Analysis%20with%20Python/Sealevel"
+                  target="_blank"
+                  class="button"
+                  >View Project</a
+                >
+              </article>
+              <article class="item">
+                <h2>Demographic Data Analyzer</h2>
+                <a class="image fit"
+                  ><img src="images/pic03.jpg" alt="Data"
+                /></a>
+                <header>
+                  <h3>
+                    In this project I analyzed demographic data using Pandas. I
+                    had access to a dataset of demographic data that was
+                    extracted from the 1994 Census database. I used pandas to
+                    identify patterns and answer some questions.
+                  </h3>
+                </header>
+                <a
+                  href="https://github.com/YousefBarakat99/My_Portfolio/tree/main/Data%20Analysis%20with%20Python/Adult%20population"
+                  target="_blank"
+                  class="button"
+                  >View Project</a
+                >
+              </article>
+              <article class="item">
+                <h2>Analysis of page visits</h2>
+                <a class="image fit"
+                  ><img src="images/pic04.jpg" alt="Website visits"
+                /></a>
+                <header>
+                  <h3>
+                    For this project I visualized time series data using a line
+                    chart, bar chart, and box plots. I used Pandas, Matplotlib,
+                    and Seaborn to visualize a dataset containing the number of
+                    page views each day on the freeCodeCamp.org forum from
+                    2016-05-09 to 2019-12-03. The data visualizations helped me
+                    understand the patterns in visits and identify yearly and
+                    monthly growth.
+                  </h3>
+                </header>
+                <a
+                  href="https://github.com/YousefBarakat99/My_Portfolio/tree/main/Data%20Analysis%20with%20Python/Forum"
+                  target="_blank"
+                  class="button"
+                  >View Project</a
+                >
+              </article>
+              <article class="item">
+                <h2>Medical Data Visualizer</h2>
+                <a class="image fit"
+                  ><img src="images/pic06.jpg" alt="Medical data research"
+                /></a>
+                <header>
+                  <h3>
+                    In this project, I visualized and made calculations from
+                    medical examination data using matplotlib, seaborn, and
+                    pandas. The dataset values were collected during medical
+                    examinations.
+                  </h3>
+                </header>
+                <a
+                  href="https://github.com/YousefBarakat99/My_Portfolio/tree/main/Data%20Analysis%20with%20Python/Medical"
+                  target="_blank"
+                  class="button"
+                  >View Project</a
+                >
+              </article>
+              <article class="item">
+                <h2>Movie Data Analysis</h2>
+                <a class="image fit"
+                  ><img src="images/movies.jpg" alt="Movie theatre"
+                /></a>
+                <header>
+                  <h3>
+                    In this project, I cleaned a large database of movie data
+                    spanning from 1980 to 2020 and checked for different
+                    correlations along the different characteristics of the
+                    movies. I also visualized some of that data using matplotlib
+                    and seaborn.
+                  </h3>
+                </header>
+                <a
+                  href="https://github.com/YousefBarakat99/My_Portfolio/tree/main/Data%20Analysis%20with%20Python/Movies"
+                  target="_blank"
+                  class="button"
+                  >View Project</a
+                >
+              </article>
+            </div>
+            <div class="col-4 col-12-mobile">
+              <h2
+                style="
+                  padding: 5px;
+                  color: darkblue;
+                  text-decoration: underline;
+                "
+              >
+                SQL
+              </h2>
+              <article class="item">
+                <h2>Covid Data Analysis</h2>
+                <a class="image fit"
+                  ><img src="images/SQL.png" alt="COVID data analysis"
+                /></a>
+                <header>
+                  <h3>
+                    In this project, I analyzed worldwide covid related data
+                    regarding deaths and vaccinations using SQL. I explored
+                    various different functions to demonstrate my SQL skills. I
+                    also created some views to use in Tableau to create
+                    visualizations.
+                  </h3>
+                </header>
+                <a
+                  href="https://github.com/YousefBarakat99/My_Portfolio/tree/main/SQL/Covid"
+                  target="_blank"
+                  class="button"
+                  >View Project</a
+                >
+              </article>
+              <article class="item">
+                <h2>Data cleaning</h2>
+                <a class="image fit"
+                  ><img src="images/data-clean.jpg" alt="Data cleaning photo"
+                /></a>
+                <header>
+                  <h3>
+                    In this project, I accessed data regarding housing in
+                    Nashville, USA and examined it. The data was in need of
+                    cleaning in terms of removing or populating null values, the
+                    creation of new columns, categorizing the data amongst other
+                    requirements.
+                  </h3>
+                </header>
+                <a
+                  href="https://github.com/YousefBarakat99/My_Portfolio/tree/main/SQL/Data%20Cleaning"
+                  target="_blank"
+                  class="button"
+                  >View Project</a
+                >
+              </article>
+            </div>
+            <div class="col-4 col-12-mobile">
+              <h2
+                style="
+                  padding: 5px;
+                  color: darkblue;
+                  text-decoration: underline;
+                "
+              >
+                Tableau
+              </h2>
+              <article class="item">
+                <h2>Tableau projects</h2>
+                <a class="image fit"
+                  ><img src="images/tableau.png" alt="Tableau logo"
+                /></a>
+                <header>
+                  <h3>This holds all of my Tableau dashboards.</h3>
+                </header>
+                <a
+                  href="https://public.tableau.com/app/profile/yousef.barakat"
+                  target="_blank"
+                  class="button"
+                  >View Dashboards</a
+                >
+              </article>
+              <h2
+                style="
+                  padding: 5px;
+                  color: darkblue;
+                  text-decoration: underline;
+                "
+              >
+                Excel
+              </h2>
+              <article class="item">
+                <h2>Excel projects</h2>
+                <a class="image fit"
+                  ><img src="images/excel.png" alt="Excel logo"
+                /></a>
+                <header>
+                  <h3>You can find my Excel projects here.</h3>
+                </header>
+                <a
+                  href="https://github.com/YousefBarakat99/My_Portfolio/tree/main/Excel/Bike"
+                  target="_blank"
+                  class="button"
+                  >View Projects</a
+                >
+              </article>
+              <h2
+                style="
+                  padding: 5px;
+                  color: darkblue;
+                  text-decoration: underline;
+                "
+              >
+                Streamlit
+              </h2>
+              <article class="item">
+                <h2>Simple web-scraping app</h2>
+                <a class="image fit"
+                  ><img src="images/Reddit.png" alt="Reddit logo"
+                /></a>
+                <header>
+                  <h3>
+                    I scraped publicly available data from Reddit and used it to
+                    create a simple blog style webpage which displays the post
+                    description, the number of votes and a link to direct to the
+                    original post; whether that be Reddit or another website.
+                    The user also has the option to download the scraped data to
+                    a csv file via the download button at the bottom of the
+                    page.
+                  </h3>
+                </header>
+                <a
+                  href="https://yousefbarakat99-streamlit-streamlitreddit-6n78ch.streamlit.app/"
+                  target="_blank"
+                  class="button"
+                  >Visit App</a
+                >
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
 
-				</div>
+      <!-- About Me -->
+      <section id="about" class="three">
+        <div class="container">
+          <header>
+            <h2>About Me</h2>
+          </header>
 
-			</div>
+          <a class="image feature"><img src="images/about-me1.jpg" alt="" /></a>
+          <p>
+            I hold a Mechatronics Engineering BSc degree and I am currently in
+            my final semester studying Engineering Management MSc in Hungary. I
+            have a passion for Data and visualizations, which is what pushed me
+            to self-learn Data Analysis with different programs. I am eager to
+            start my journey and gain relevant experience in the industry.
+          </p>
+        </div>
+      </section>
 
-		<!-- Main -->
-			<div id="main">
+      <!-- Contact -->
+      <section id="contact" class="four">
+        <div class="container">
+          <header>
+            <h2>Contact</h2>
+          </header>
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+          <p>
+            Feel free to contact me if you have any questions or opportunities.
+          </p>
+          <form method="post" action="mailto:yousefhany19992@gmail.com">
+            <div class="row">
+              <div class="col-12">
+                <input type="submit" value="Send Email" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
 
-							<header>
-								<h2 class="alt">Hello! I'm <strong>Yousef</strong></h2>
-								<p>And the purpose of this website is to showcase my skills in Data Analysis.<br>
-								You will find my portfolio and contact information below.</p>
-							</header>
+    <!-- Footer -->
+    <div id="footer">
+      <!-- Copyright -->
+      <ul class="copyright">
+        <li>&copy; Untitled. All rights reserved.</li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </div>
 
-							<footer>
-								<a href="#portfolio" class="button scrolly">Portfolio</a>
-							</footer>
-
-						</div>
-					</section>
-
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Portfolio</h2>
-							</header>
-
-							<p>I have completed several projects in different environments to showcase my 
-								skills and flexibility. The code is hosted on my Github profile and 
-								I will constantly update the portfolio as I complete more projects.</p>
-
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<h2 style="padding:5px; color:darkblue; text-decoration: underline;">Python</h2>
-									<article class="item">
-										<h2>Sea Level Predictor</h2>
-										<a class="image fit"><img src="images/pic02.jpg" alt="Sea level rise" /></a>
-										<header>
-											<h3>Analyzed a dataset of the global average sea level change since 1880. 
-												Then used the data to predict the sea level change through year 2050.</h3>
-										</header>
-											<a href="https://github.com/YousefBarakat99/My_Portfolio/tree/main/Data%20Analysis%20with%20Python/Sealevel" target="_blank" class="button">View Project</a>
-									</article>
-									<article class="item">
-										<h2>Demographic Data Analyzer</h2>
-										<a class="image fit"><img src="images/pic03.jpg" alt="Data" /></a>
-										<header>
-											<h3>In this project I analyzed demographic data using Pandas. 
-												I had access to a dataset of demographic data that was extracted 
-												from the 1994 Census database. I used pandas to identify patterns 
-											and answer some questions.</h3>
-										</header>
-											<a href="https://github.com/YousefBarakat99/My_Portfolio/tree/main/Data%20Analysis%20with%20Python/Adult%20population" target="_blank" class="button">View Project</a>
-									</article>
-									<article class="item">
-										<h2>Analysis of page visits</h2>
-										<a class="image fit"><img src="images/pic04.jpg" alt="Website visits" /></a>
-										<header>
-											<h3>For this project I visualized time series data using a line chart, 
-												bar chart, and box plots. I used Pandas, Matplotlib, and Seaborn to visualize
-												 a dataset containing the number of page views each day on the freeCodeCamp.org forum 
-												 from 2016-05-09 to 2019-12-03. The data visualizations helped me understand the 
-												 patterns in visits and identify yearly and monthly growth.</h3>
-										</header>
-											<a href="https://github.com/YousefBarakat99/My_Portfolio/tree/main/Data%20Analysis%20with%20Python/Forum" target="_blank" class="button">View Project</a>
-									</article>
-									<article class="item">
-										<h2>Medical Data Visualizer</h2>
-										<a class="image fit"><img src="images/pic06.jpg" alt="Medical data research" /></a>
-										<header>
-											<h3>In this project, I visualized and made calculations from medical 
-												examination data using matplotlib, seaborn, and pandas. The dataset values 
-												were collected during medical examinations.</h3>
-										</header>
-											<a href="https://github.com/YousefBarakat99/My_Portfolio/tree/main/Data%20Analysis%20with%20Python/Medical" target="_blank" class="button">View Project</a>
-									</article>
-									<article class="item">
-										<h2>Movie Data Analysis</h2>
-										<a class="image fit"><img src="images/movies.jpg" alt="Movie theatre" /></a>
-										<header>
-											<h3>In this project, I cleaned a large database of movie data spanning from 1980 to 2020 
-												and checked for different correlations along the different characteristics of the movies.
-												I also visualized some of that data using matplotlib and seaborn.
-											</h3>
-										</header>
-											<a href="https://github.com/YousefBarakat99/My_Portfolio/tree/main/Data%20Analysis%20with%20Python/Movies" target="_blank" class="button">View Project</a>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<h2 style="padding:5px; color:darkblue; text-decoration: underline;">SQL</h2>
-									<article class="item">
-										<h2>Covid Data Analysis</h2>
-										<a class="image fit"><img src="images/SQL.png" alt="COVID data analysis" /></a>
-										<header>
-											<h3>In this project, I analyzed worldwide covid related data regarding deaths 
-												and vaccinations using SQL. I explored various different functions to demonstrate
-											my SQL skills. I also created some views to use in Tableau to create visualizations.</h3>
-										</header>
-											<a href="https://github.com/YousefBarakat99/My_Portfolio/tree/main/SQL/Covid" target="_blank" class="button">View Project</a>
-									</article>
-									<article class="item">
-										<h2>Data cleaning</h2>
-										<a class="image fit"><img src="images/data-clean.jpg" alt="Data cleaning photo" /></a>
-										<header>
-											<h3>In this project, I accessed data regarding housing in Nashville, USA and examined it.
-												The data was in need of cleaning in terms of removing or populating null values, the 
-												creation of new columns, categorizing the data amongst other requirements.
-											</h3>
-										</header>
-											<a href="https://github.com/YousefBarakat99/My_Portfolio/tree/main/SQL/Data%20Cleaning" target="_blank" class="button">View Project</a>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<h2 style="padding:5px; color:darkblue; text-decoration: underline;">Tableau</h2>
-									<article class="item">
-										<h2>Tableau projects</h2>
-										<a class="image fit"><img src="images/tableau.png" alt="Tableau logo" /></a>
-										<header>
-											<h3>This holds all of my Tableau dashboards.</h3>
-										</header>
-											<a href="https://public.tableau.com/app/profile/yousef.barakat" target="_blank" class="button">View Dashboards</a>
-									</article>
-									<h2 style="padding:5px; color:darkblue; text-decoration: underline;">Excel</h2>
-									<article class="item">
-										<h2>Excel projects</h2>
-										<a class="image fit"><img src="images/excel.png" alt="Excel logo" /></a>
-										<header>
-											<h3>You can find my Excel projects here.</h3>
-										</header>
-											<a href="https://github.com/YousefBarakat99/My_Portfolio/tree/main/Excel/Bike" target="_blank" class="button">View Projects</a>
-									</article>
-								</div>
-								
-							</div>
-
-						</div>
-					</section>
-
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>About Me</h2>
-							</header>
-
-							<a class="image feature"><img src="images/about-me1.jpg" alt="" /></a>
-							<p>I hold a Mechatronics Engineering BSc degree and I am currently in my final semester studying
-								Engineering Management MSc in Hungary. I have a passion for Data and visualizations, which is 
-								what pushed me to self-learn Data Analysis with different programs. I am eager to start my journey
-								and gain relevant experience in the industry.
-							</p>
-
-						</div>
-					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p>Feel free to contact me if you have any questions or opportunities.</p>
-							<form method="post" action="mailto:yousefhany19992@gmail.com">
-								<div class="row">
-									<div class="col-12">
-										<input type="submit" value="Send Email" />
-									</div>
-								</div>
-							</form>
-
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
