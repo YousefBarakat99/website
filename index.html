@@ -132,7 +132,7 @@
                 /></a>
                 <header>
                   <h3>
-                    Acquired data related to houses for rent by scraping 3
+                    Acquired data related to houses for sale/rent by scraping a
                     well known local website where I live. The data was related
                     to price, size, number of rooms, and address of the
                     property. The data can be exported to an excel file once the
@@ -317,7 +317,7 @@
                   </h3>
                 </header>
                 <a
-                  href="https://yousef-barakat99-houses.streamlit.app/"
+                  href="https://yousefbarakat99-houses.streamlit.app/"
                   target="_blank"
                   class="button"
                   >View WebApp</a
@@ -517,6 +517,7 @@
         document.documentElement.scrollTop = 0;
       }
       </script> -->
+<<<<<<< HEAD
       <script>
         let mybutton = document.getElementById("myBtn");
         
@@ -571,6 +572,62 @@
         requestAnimationFrame(animateScroll);
       }
       </script>
+=======
+    <script>
+      let mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      function topFunction() {
+      // Set the duration of the scroll animation (in milliseconds)
+      const duration = 800;
+
+      // Get the current position of the page scroll
+      const startingY = window.pageYOffset;
+
+      // Calculate the ending position of the page scroll (which is the top of the page)
+      const endingY = 0;
+
+      // Calculate the distance between the starting and ending positions
+      const distance = endingY - startingY;
+
+      // Calculate the start time of the scroll animation
+      const startTime = performance.now();
+
+      // Define the animation function that will be called every frame of the animation
+      const animateScroll = (currentTime) => {
+        // Calculate the time elapsed since the start of the animation
+        const elapsedTime = currentTime - startTime;
+
+        // Calculate the percentage of the animation that is complete
+        const percentComplete = Math.min(elapsedTime / duration, 1);
+
+        // Calculate the new position of the page scroll based on the percentage of the animation that is complete
+        const newY = startingY + (distance * percentComplete);
+
+        // Set the new position of the page scroll
+        window.scrollTo(0, newY);
+
+        // If the animation is not yet complete, continue animating on the next frame
+        if (elapsedTime < duration) {
+          requestAnimationFrame(animateScroll);
+        }
+      };
+
+      // Start the animation by requesting the first frame
+      requestAnimationFrame(animateScroll);
+    }
+    </script>
+>>>>>>> 73fe9a3979b678e14daac764fac98d0a7d498a1d
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
