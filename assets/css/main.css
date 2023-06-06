@@ -327,7 +327,7 @@ br.clear {
   clear: both;
 }
 a.button {
-  background-color: darkmagenta;
+  background-color: darkcyan;
 }
 
 /* Container */
@@ -2212,7 +2212,7 @@ button:active,
 }
 
 #header .icons a:hover {
-  color: darkmagenta;
+  color: darkcyan;
 }
 
 #logo {
@@ -2286,11 +2286,11 @@ button:active,
 #nav ul li a.active {
   background: rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-  color: magenta;
+  color: darkcyan;
 }
 
 #nav ul li a.active span:before {
-  color: magenta;
+  color: darkcyan;
 }
 
 /* Footer */
@@ -2375,7 +2375,7 @@ button:active,
 
 #main > section.one {
   background-color: #81918e;
-  background-image: url("../../images/background2.jpg");
+  background-image: url("../../images/new_bg.jpg");
 }
 
 #main > section.two {
@@ -2384,6 +2384,9 @@ button:active,
 
 #main > section.three {
   background-color: black;
+  background-image: url("../../images/get_to_know.jpg");
+  background-size: cover;
+  background-position: center top;
 }
 
 #main > section.four {
@@ -2891,13 +2894,13 @@ label.fcf-label {
 
 .fcf-btn-primary {
   color: #fff;
-  background-color: darkmagenta;
+  background-color: darkcyan;
   /* border-color: #007bff; */
 }
 
 .fcf-btn-primary:hover {
   color: #fff;
-  background-color: darkviolet;
+  background-color: darkorchid;
   /* border-color: #0062cc; */
 }
 
@@ -2940,7 +2943,7 @@ input[type="button"].fcf-btn-block {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: magenta; /* Set a background color */
+  background-color: darkblue; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
@@ -2949,5 +2952,5 @@ input[type="button"].fcf-btn-block {
 }
 
 #myBtn:hover {
-  background-color: violet; /* Add a dark-grey background on hover */
+  background-color: darkorchid; /* Add a dark-grey background on hover */
 }
