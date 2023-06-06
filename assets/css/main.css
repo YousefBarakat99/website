@@ -2642,7 +2642,7 @@ button:active,
   #headerToggle .toggle:before {
     text-decoration: none;
     content: "\f0c9";
-    color: darkmagenta;
+    color: darkcyan;
     font-size: 18px;
     background: rgba(128, 136, 144, 0.5);
     border-radius: 0.35em;
